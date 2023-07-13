@@ -10,7 +10,8 @@ JAR file and Details.
 spark-submit --name "FxOrderEngine" --master local --class veera.tcstest.spark.fxstockanalyzer.FxOrderEngine  target/FxOrderEngine-1.0.0-SNAPSHOT-jar-with-dependencies.jar data\order.csv
 
 
-## Code walkthrough:
+Design and Implemantaion Details:
+
 1. The main class is FxOrderEngine.scala
 2 logger added to capture logs info
 3. method loadOrderDF  defined to load data from source csv files
