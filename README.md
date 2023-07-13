@@ -1,11 +1,11 @@
 # Overview:
-Assessment for the project FxEngine contains the spark scala solution for a Trading Engine  problem
+Code repositary for FxOrderEngin to validate and run the rules for FX Trading system as part of Batch and send data to downstreems and othre analytical process.
 
 Jars created:
 - Jar: FxOrderEngine-1.0.0-SNAPSHOT.jar
 - UberJar: FxOrderEngine-1.0.0-SNAPSHOT-jar-with-dependencies.jar
 
-Command To Run Application Locally with uber jar (assuming your are inside repo):
+ Run Application Locally with Jar
 ```
 spark-submit --name "FxOrderEngine" --master local --class veera.tcstest.spark.fxstockanalyzer.FxOrderEngine  target/FxOrderEngine-1.0.0-SNAPSHOT-jar-with-dependencies.jar data\order.csv
 ```
