@@ -1,5 +1,5 @@
 name := "HelloSpark"
-organization := "guru.learningjournal"
+organization := "Veera.testing"
 version := "0.1"
 scalaVersion := "2.12.10"
 //scalaVersion := "2.11.8"
