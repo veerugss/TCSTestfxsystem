@@ -1,14 +1,14 @@
-# Overview:
+x# Overview:
 Code repositary for FxOrderEngin to validate and run the rules for FX Trading system as part of Batch and send data to downstreems and othre analytical process.
 
-Jars created:
+JAR file and Details.
 - Jar: FxOrderEngine-1.0.0-SNAPSHOT.jar
 - UberJar: FxOrderEngine-1.0.0-SNAPSHOT-jar-with-dependencies.jar
 
- Run Application Locally with Jar
-```
+ Execution commend
+
 spark-submit --name "FxOrderEngine" --master local --class veera.tcstest.spark.fxstockanalyzer.FxOrderEngine  target/FxOrderEngine-1.0.0-SNAPSHOT-jar-with-dependencies.jar data\order.csv
-```
+
 
 ## Code walkthrough:
 1. The main class is FxOrderEngine.scala
