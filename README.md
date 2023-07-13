@@ -2,12 +2,12 @@
 Assessment for the project FxEngine contains the spark scala solution for a Trading Engine  problem
 
 Jars created:
-- Jar: HelloSpark-1.0.0-SNAPSHOT.jar
-- UberJar: HelloSpark-1.0.0-SNAPSHOT-jar-with-dependencies.jar
+- Jar: FxOrderEngine-1.0.0-SNAPSHOT.jar
+- UberJar: FxOrderEngine-1.0.0-SNAPSHOT-jar-with-dependencies.jar
 
 Command To Run Application Locally with uber jar (assuming your are inside repo):
 ```
-spark-submit --name "FxOrderEngine" --master local --class veera.tcstest.spark.fxstockanalyzer.FxOrderEngine  target/HelloSpark-1.0.0-SNAPSHOT-jar-with-dependencies.jar data\order.csv
+spark-submit --name "FxOrderEngine" --master local --class veera.tcstest.spark.fxstockanalyzer.FxOrderEngine  target/FxOrderEngine-1.0.0-SNAPSHOT-jar-with-dependencies.jar data\order.csv
 ```
 
 ## Code walkthrough:
